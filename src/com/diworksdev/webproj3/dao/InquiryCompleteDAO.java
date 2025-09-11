@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 import com.diworksdev.webproj3.util.DBConnector;
 
-public class InquiryDAO {
+public class InquiryCompleteDAO {
 	public int insert(String name, String qtype, String body) {
 		int ret = 0;
 		DBConnector db = new DBConnector();

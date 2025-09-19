@@ -27,7 +27,7 @@ public class InquiryCompleteAction extends ActionSupport{
 	public String getQtype() {
 		return qtype;
 	}
-	public void setQype(String qtype) {
+	public void setQtype(String qtype) {
 		this.qtype = qtype;
 	}
 	public String getBody() {
